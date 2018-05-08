@@ -63,7 +63,7 @@ ul {
 }
 
 .header__inner {
-  width: 800px;
+  flex-basis: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -77,7 +77,7 @@ ul {
 
 .header__title {
   font-weight: 300;
-  font-size: 4em;
+  font-size: 2.5em;
   margin: 0.5em 0.25em;
   display: inline-block;
   color: #212121;
@@ -91,13 +91,13 @@ ul {
  */
 
 .nav {
-  width: 800px;
+  flex-basis: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .nav__list {
-  width: 100%;
+  flex-basis: 100%;
   padding: 0;
   margin: 0;
 }
@@ -115,6 +115,7 @@ ul {
 .nav a {
   text-decoration: none;
   color: #616161;
+  padding: 1.5em;
 }
 
 .nav a:hover {
@@ -131,7 +132,7 @@ ul {
 
 main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  width: 800px;
+  flex-basis: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -150,8 +151,7 @@ main {
  */
 
 .hero {
-  float: left;
-  width: 480px;
+  flex-basis: 100%;
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
@@ -178,9 +178,7 @@ main {
  */
 
 .top-news {
-  float: right;
-  width: 320px;
-  height: 300px;
+  flex-basis: 100%;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
 }
@@ -224,9 +222,8 @@ main {
  */
 
 .scores {
-  width: 480px;
-  float: left;
   padding-top: 1em;
+  flex-grow: 1;
 }
 
 .scores__table {
@@ -273,9 +270,8 @@ main {
  */
 
 .weather {
-  float: right;
-  width: 320px;
   padding: 1em;
+  flex-grow: 1;
 }
 
 .weather__location {
@@ -290,7 +286,7 @@ main {
 }
 
 .weather__today {
-  width: 60%;
+  flex-basis: 40%;
   vertical-align: middle;
 }
 
@@ -324,7 +320,7 @@ main {
 
 /*
  *
- * Weather
+ * Recent News
  *
  */
 
@@ -379,4 +375,5 @@ footer li {
 footer a {
   text-decoration: none;
   color: #333;
+  padding: 1.5em;
 }
