@@ -5,11 +5,15 @@
 
   @media screen and (min-width: 650px) {
     .hero {
-        flex-basis: 60%;
+        width: 60%;
     }
 
     .top-news {
-        flex-basis: 40%;
+        width: 40%;
+    }
+
+    .weather {
+      width: 40%;
     }
 
     .header__title {

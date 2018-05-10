@@ -63,23 +63,22 @@ ul {
 }
 
 .header__inner {
-  flex-basis: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .header__logo {
   height: 72px;
-  margin-right: 1em;
-  vertical-align: top;
-  margin-top: 12px;
+  margin-left: 0.5em;
+  
 }
 
 .header__title {
   font-weight: 300;
-  font-size: 2.5em;
-  margin: 0.5em 0.25em;
-  display: inline-block;
+  font-size: 2em;
+  margin-left: 0.5em;
+
   color: #212121;
 }
 
@@ -91,13 +90,13 @@ ul {
  */
 
 .nav {
-  flex-basis: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .nav__list {
-  flex-basis: 100%;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
@@ -132,7 +131,7 @@ ul {
 
 main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  flex-basis: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -151,7 +150,7 @@ main {
  */
 
 .hero {
-  flex-basis: 100%;
+  width: 100%;
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
@@ -178,7 +177,7 @@ main {
  */
 
 .top-news {
-  flex-basis: 100%;
+  width: 100%;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
 }
@@ -286,7 +285,7 @@ main {
 }
 
 .weather__today {
-  flex-basis: 40%;
+  width: 40%;
   vertical-align: middle;
 }
 
